@@ -1,0 +1,1764 @@
+/* hero-fold-v2 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 100px;
+gap: 80px;
+isolation: isolate;
+
+width: 1600px;
+height: 1117px;
+
+border-top: 1px solid #E1E3E8;
+/* Shadows/S3 */
+box-shadow: 0px 16px 32px -12px rgba(88, 92, 95, 0.1);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Noise & Texture */
+
+position: absolute;
+width: 1600px;
+height: 1117px;
+left: calc(50% - 1600px/2);
+top: calc(50% - 1117px/2);
+
+background: url(.png);
+opacity: 0.3;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector 62 */
+
+position: absolute;
+width: 600.5px;
+height: 609.5px;
+right: -88.5px;
+top: -128px;
+
+background: #FFFFFF;
+opacity: 0.9;
+filter: blur(59.5px);
+transform: rotate(-11.02deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 2147223937 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 100px;
+isolation: isolate;
+
+width: 1240px;
+max-width: 1240px;
+height: 745px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Frame 2147224837 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 570px;
+height: 670px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+z-index: 0;
+
+
+/* Frame 2147223897 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 248px 20px;
+gap: 406px;
+
+width: 570px;
+height: 570px;
+
+background: url(Fishnet Manufacturing Image (1).jpg);
+border: 3px solid #FFFFFF;
+box-shadow: 0px 20px 40px -8px rgba(88, 92, 95, 0.2);
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2147224335 */
+
+box-sizing: border-box;
+
+width: 50px;
+height: 50px;
+
+background: rgba(255, 255, 255, 0.86);
+border: 1px solid #E1E3E8;
+backdrop-filter: blur(6px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 50px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow right */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 13px;
+top: 12.5px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 20.83%;
+bottom: 20.83%;
+
+border: 2px solid #4D545C;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Frame 2147224333 */
+
+box-sizing: border-box;
+
+width: 50px;
+height: 50px;
+
+background: rgba(255, 255, 255, 0.86);
+border: 1px solid #E1E3E8;
+backdrop-filter: blur(6px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Arrow right */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 13px;
+top: 12.5px;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 20.83%;
+bottom: 20.83%;
+
+border: 2px solid #4D545C;
+
+
+/* Frame 2147224839 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 570px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2147224837 */
+
+box-sizing: border-box;
+
+width: 80px;
+height: 80px;
+
+background: #FFFFFF;
+border: 1px solid #CFD1D4;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2147224838 */
+
+box-sizing: border-box;
+
+width: 80px;
+height: 80px;
+
+background: #FFFFFF;
+border: 1px solid #CFD1D4;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 2147224839 */
+
+box-sizing: border-box;
+
+width: 80px;
+height: 80px;
+
+background: #FFFFFF;
+border: 1px solid #CFD1D4;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 2147224840 */
+
+box-sizing: border-box;
+
+width: 80px;
+height: 80px;
+
+background: #FFFFFF;
+border: 1px solid #CFD1D4;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 2147224841 */
+
+box-sizing: border-box;
+
+width: 80px;
+height: 80px;
+
+background: #FFFFFF;
+border: 1px solid #CFD1D4;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 2147224842 */
+
+box-sizing: border-box;
+
+width: 80px;
+height: 80px;
+
+background: #FFFFFF;
+border: 1px solid #CFD1D4;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Frame 2147223896 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 570px;
+height: 745px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+z-index: 1;
+
+
+/* Frame 2147224157 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 570px;
+height: 461px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 570px;
+height: 253px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2147224253 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 450px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2147224847 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+width: 142px;
+height: 36px;
+
+background: #F7F8F9;
+border: 1px solid #E1E3E8;
+/* shadow/sm */
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2147224851 */
+
+width: 29.41px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2147224850 */
+
+position: absolute;
+width: 26.47px;
+height: 18px;
+left: 1.47px;
+top: 1px;
+
+
+
+/* BIS-Hallmark-Color */
+
+position: absolute;
+width: 26.47px;
+height: 18px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 2.74%;
+right: 2.58%;
+top: 0%;
+bottom: 19.55%;
+
+background: #2A58A3;
+
+
+/* Vector */
+
+position: absolute;
+left: 42.58%;
+right: 42.66%;
+top: 39.64%;
+bottom: 38.65%;
+
+background: #E6363B;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 82.89%;
+bottom: 0%;
+
+background: #2A58A3;
+
+
+/* Vector */
+
+position: absolute;
+left: 19.86%;
+right: 16.54%;
+top: 82.33%;
+bottom: 8.62%;
+
+background: #E6363B;
+
+
+/* BIS Certified */
+
+width: 84px;
+height: 20px;
+
+/* Body/body-14-med */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: -0.006em;
+
+/* Medium - 1 */
+color: #4B5563;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 2147224849 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+width: 142px;
+height: 36px;
+
+background: #F7F8F9;
+border: 1px solid #E1E3E8;
+/* shadow/sm */
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 2147224846 */
+
+width: 25.98px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ISI-Mark-Black */
+
+position: absolute;
+width: 22.08px;
+height: 17px;
+left: 1.95px;
+top: 1.5px;
+
+background: url(ISI-Mark-Black.png);
+
+
+/* ISO Certified */
+
+width: 85px;
+height: 20px;
+
+/* Body/body-14-med */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: -0.006em;
+
+/* Medium - 1 */
+color: #4B5563;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 2147224848 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+width: 142px;
+height: 36px;
+
+background: #F7F8F9;
+border: 1px solid #E1E3E8;
+/* shadow/sm */
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* CE Certification */
+
+width: 22.5px;
+height: 20px;
+
+background: url(CE Certification.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* CE Certified */
+
+width: 81px;
+height: 20px;
+
+/* Body/body-14-med */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: -0.006em;
+
+/* Medium - 1 */
+color: #4B5563;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Premium HDPE Pipes & Coils for Modern Infrastructure */
+
+width: 570px;
+height: 201px;
+
+/* Heading/H1 */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 120%;
+/* or 67px */
+
+color: #111827;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2147224219 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 570px;
+height: 184px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2147224221 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 240px;
+min-width: 240px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* CheckCircle
+
+todo, to-do, task, list, checkbox, round, ok, done, system &amp; devices
+*/
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.37%;
+top: 9.38%;
+bottom: 9.37%;
+
+background: #2B3990;
+
+
+/* Leak-Proof Fusion Joints */
+
+width: 218px;
+height: 24px;
+
+/* Body/body-16-reg */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #0D0D0D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 2147224222 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 240px;
+min-width: 240px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* CheckCircle
+
+todo, to-do, task, list, checkbox, round, ok, done, system &amp; devices
+*/
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.37%;
+top: 9.38%;
+bottom: 9.37%;
+
+background: #2B3990;
+
+
+/* Chemical Resistance */
+
+width: 218px;
+height: 24px;
+
+/* Body/body-16-reg */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #0D0D0D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 2147224223 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 240px;
+min-width: 240px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* CheckCircle
+
+todo, to-do, task, list, checkbox, round, ok, done, system &amp; devices
+*/
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.37%;
+top: 9.38%;
+bottom: 9.37%;
+
+background: #2B3990;
+
+
+/* 50+ Year Service Life */
+
+width: 218px;
+height: 24px;
+
+/* Body/body-16-reg */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #0D0D0D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 2147224224 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 240px;
+min-width: 240px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* CheckCircle
+
+todo, to-do, task, list, checkbox, round, ok, done, system &amp; devices
+*/
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.37%;
+top: 9.38%;
+bottom: 9.37%;
+
+background: #2B3990;
+
+
+/* Flexible Installation */
+
+width: 218px;
+height: 24px;
+
+/* Body/body-16-reg */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #0D0D0D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 2147224225 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 240px;
+min-width: 240px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* CheckCircle
+
+todo, to-do, task, list, checkbox, round, ok, done, system &amp; devices
+*/
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 9.37%;
+top: 9.38%;
+bottom: 9.37%;
+
+background: #2B3990;
+
+
+/* Flexible Installation */
+
+width: 218px;
+height: 24px;
+
+/* Body/body-16-reg */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #0D0D0D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Frame 2147224862 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px 20px;
+gap: 16px;
+
+width: 570px;
+height: 184px;
+
+background: #FFFFFF;
+border: 1px solid #CFD1D4;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2147224225 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 240px;
+min-width: 240px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Price Range */
+
+width: 80px;
+height: 20px;
+
+/* Body/body-14-med */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: -0.006em;
+
+color: #6A7077;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ₹4,80,000 - 7,90,000 */
+
+width: 204px;
+height: 28px;
+
+/* Body/body-20-sem */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+letter-spacing: -0.006em;
+
+color: #0D0D0D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 2147224861 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 530px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2147224859 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 530px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 12px;
+
+width: 156px;
+height: 32px;
+
+/* yellow/100 */
+background: #FEF3C7;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 132px;
+height: 20px;
+
+/* Body/body-14-med */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: -0.006em;
+
+/* yellow/800 */
+color: #92400E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 12px;
+
+width: 243px;
+height: 32px;
+
+/* yellow/100 */
+background: #FEF3C7;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 219px;
+height: 20px;
+
+/* Body/body-14-med */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: -0.006em;
+
+/* yellow/800 */
+color: #92400E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2147224861 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 530px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 12px;
+
+width: 297px;
+height: 32px;
+
+/* gray/100 */
+background: #F3F4F6;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 273px;
+height: 20px;
+
+/* Body/body-14-med */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: -0.006em;
+
+color: #0D0D0D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2147223895 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 426px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 4px;
+
+width: 189px;
+height: 52px;
+
+background: #2B3990;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 141px;
+height: 24px;
+
+/* Body/body-16-med */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 16px 20px;
+gap: 8px;
+
+width: 225px;
+height: 52px;
+
+border: 1px solid #2B3990;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 165px;
+height: 24px;
+
+/* Body/body-16-med */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #262A2E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* CaretRight
+
+chevron, directional, pointer, pointing, arrowhead, triangle, arrows
+*/
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 32.8%;
+right: 26.55%;
+top: 14.05%;
+bottom: 14.06%;
+
+background: #262A2E;
+
+
+/* Frame 2147224306 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 222px;
+height: 20px;
+left: 0px;
+top: -68px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Products */
+
+width: 59px;
+height: 20px;
+
+/* Body/body-14-reg */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: -0.006em;
+
+color: #4D545C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* CaretRight
+
+chevron, directional, pointer, pointing, arrowhead, triangle, arrows
+*/
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 32.8%;
+right: 26.55%;
+top: 14.05%;
+bottom: 14.06%;
+
+background: #4D545C;
+
+
+/* Two For One Twister */
+
+width: 135px;
+height: 20px;
+
+/* Body/body-14-reg */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: -0.006em;
+
+color: #0D0D0D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 2147224149 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 1240px;
+max-width: 1240px;
+height: 92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+z-index: 3;
+
+
+/* title */
+
+width: 330px;
+height: 24px;
+
+/* Body/body-16-reg */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: -0.006em;
+
+color: #878B94;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* sub-text */
+
+display: none;
+width: 800px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+text-align: center;
+
+color: rgba(255, 255, 255, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1244832979 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 120px;
+
+width: 1240px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* image 86 */
+
+margin: 0 auto;
+width: 121.85px;
+height: 32.11px;
+
+background: url(image [Background removed].png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 87 */
+
+margin: 0 auto;
+width: 121.85px;
+height: 32.11px;
+
+background: url(image [Background removed].png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 88 */
+
+margin: 0 auto;
+width: 121.85px;
+height: 32.11px;
+
+background: url(image [Background removed].png);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* image 91 */
+
+margin: 0 auto;
+width: 121.85px;
+height: 32.11px;
+
+background: url(image [Background removed].png);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* image 89 */
+
+margin: 0 auto;
+width: 121.85px;
+height: 32.11px;
+
+background: url(image [Background removed].png);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* image 90 */
+
+margin: 0 auto;
+width: 121.85px;
+height: 32.11px;
+
+background: url(image [Background removed].png);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
