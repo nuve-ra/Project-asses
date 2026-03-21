@@ -1,142 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gushwork Assignment</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HDPE Pipe Product Page</title>
 
-  <!-- FIXED CSS FILE NAME -->
-  <link rel="stylesheet" href="style.css" />
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="container">
-      <h1>Gushwork Assignment</h1>
+<div class="page-wrapper"> <!-- ✅ ADDED -->
+
+<!-- HEADER -->
+<header class="navbar">
+  <div class="container nav-content">
+    
+    <div class="logo">
+      <img src="./images/logo (2).png" alt="Company Logo">
     </div>
-  </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="container">
+    <nav class="nav-links">
+      <a href="#">About</a>
 
-      <!-- LEFT -->
+      <div class="dropdown">
+        <a href="#" class="dropbtn">Product ▾</a>
+        <div class="dropdown-content">
+          <a href="#">Product 1</a>
+          <a href="#">Product 2</a>
+          <a href="#">Product 3</a>
+        </div>
+      </div>
+
+      <a href="#" class="contact-btn">Contact Us</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="container">
+
+    <div class="hero-layout">
+
+      <!-- LEFT SIDE -->
       <div class="hero-left">
 
-        <div class="image-container">
-          <img id="mainImage" src="./images/Work.png" alt="Product" />
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb"> <!-- ✅ improved -->
+          <span>Products</span>
+          <span class="separator">></span>
+          <span class="current">Two for one twister</span>
+        </nav>
 
-          <button class="arrow left">&#8592;</button>
-          <button class="arrow right">&#8594;</button>
+        <!-- MAIN IMAGE -->
+        <div class="image-container">
+          <button class="arrow left" id="prevBtn">&#8592;</button>
+          <img id="mainImage" src="./images/Workers.jpg" alt="HDPE pipe installation work" />
+          <button class="arrow right" id="nextBtn">&#8594;</button>
         </div>
 
         <!-- THUMBNAILS -->
         <div class="thumbnails">
-          <img src="./images/Work.png" class="thumb active" />
-          <img src="./images/working.jpg" class="thumb" />
-          <img src="./images/workinspection.jpg" class="thumb" />
-          <img src="./images/coil.jpg" class="thumb" />
+          <img src="./images/Work.png" class="thumb active" alt="HDPE pipe work" />
+          <img src="./images/working.jpg" class="thumb" alt="Workers installing pipes" />
+          <img src="./images/workinspection.jpg" class="thumb" alt="Pipe inspection process" />
+          <img src="./images/coil.jpg" class="thumb" alt="HDPE pipe coils" />
         </div>
 
       </div>
 
-      <!-- RIGHT -->
-      <div class="badges">
+      <!-- RIGHT SIDE -->
+      <div class="hero-right">
 
-  <div class="badge">
-    <img src="./images/BIS.webp" alt="BIS" />
-    <span>BIS Certified</span>
-  </div>
+        <!-- BADGES -->
+        <div class="badges">
+          <div class="badge">
+            <img src="./images/BIS.webp" alt="BIS Certification">
+            <span>BIS Certified</span>
+          </div>
 
-  <div class="badge">
-    <img src="./images/isimark.webp" alt="ISO" />
-    <span>ISO Certified</span>
-  </div>
+          <div class="badge">
+            <img src="./images/isimark.webp" alt="ISO Certification">
+            <span>ISO Certified</span>
+          </div>
 
-  <div class="badge">
-    <img src="./images/ce.png" alt="CE" />
-    <span>CE Certified</span>
-  </div>
+          <div class="badge">
+            <img src="./images/ce.png" alt="CE Certification">
+            <span>CE Certified</span>
+          </div>
+        </div>
 
-</div>
+        <!-- TITLE -->
+        <h1>Premium HDPE Pipes & Coils for Modern Infrastructure</h1>
 
-        <h2>Premium HDPE Pipes & Coils for Modern Infrastructure</h2>
-
+        <!-- FEATURES -->
         <ul class="features-list">
-          <li>Leak-Proof Fusion Joints</li>
-          <li>Chemical Resistance</li>
-          <li>50+ Year Service Life</li>
-          <li>Flexible Installation</li>
+          <li>
+            <img src="./images/Vector.png" class="tick-icon" alt="tick">
+            <span>Leak-Proof Fusion Joints</span>
+          </li>
+
+          <li>
+            <img src="./images/Vector.png" class="tick-icon" alt="tick">
+            <span>Chemical Resistance</span>
+          </li>
+
+          <li>
+            <img src="./images/Vector.png" class="tick-icon" alt="tick">
+            <span>50+ Year Service Life</span>
+          </li>
+
+          <li>
+            <img src="./images/Vector.png" class="tick-icon" alt="tick">
+            <span>Flexible Installation</span>
+          </li>
         </ul>
 
+        <!-- PRICE BOX -->
         <div class="price-box">
-          <p>Price Range</p>
-          <h3>₹4,80,000 - ₹7,90,000</h3>
+          <p class="price-label">Price Range</p>
+          <h3 class="price-value">₹4,80,000 - 7,90,000</h3>
+
+          <div class="tags-row">
+            <span class="tag tag-shipping">Shipping: 6-12 days</span>
+            <span class="tag tag-returns">Returns: If returned within 7 days</span>
+          </div>
+
+          <div class="cert-box">
+            Certifications: ISO Certified BIS Certified
+          </div>
         </div>
 
+        <!-- BUTTONS -->
         <div class="buttons">
-          <button class="primary-btn">Get Quote</button>
-          <button class="secondary-btn">View Details →</button>
+          <a href="#" class="primary-btn">Get Custom Quote</a>
+          <a href="#" class="secondary-btn">View Technical Specs</a>
         </div>
 
       </div>
 
     </div>
-  </section>
 
-  <!-- SPECIFICATIONS -->
-  <section class="specs">
-    <div class="container">
-      <h2>Technical Specifications</h2>
+  </div>
+</section>
 
-      <div class="spec-table">
-        <div>Model</div><div>XYZ-123</div>
-        <div>Weight</div><div>1.2 kg</div>
-        <div>Pressure</div><div>200 PSI</div>
-      </div>
+<!-- TRUSTED SECTION -->
+<section class="trusted">
+  <div class="container">
+
+    <p class="trusted-text">
+      Trusted by Hundreds of Companies Globally
+    </p>
+
+    <div class="trusted-logos">
+      <img src="./images/euroflex.png" alt="Euroflex logo">
     </div>
-  </section>
 
-  <!-- FEATURES -->
-  <section class="features">
-    <div class="container">
-      <h2>Features</h2>
+  </div>
+</section>
 
-      <div class="feature-grid">
-        <div class="card">Feature 1</div>
-        <div class="card">Feature 2</div>
-        <div class="card">Feature 3</div>
-      </div>
-    </div>
-  </section>
+</div> <!-- ✅ END page-wrapper -->
 
-  <!-- FAQ -->
-  <section class="faq">
-    <div class="container">
-      <h2>FAQ</h2>
+<!-- JS -->
+<script src="script.js"></script>
 
-      <div class="faq-item">
-        <p class="question">What is this product?</p>
-        <p class="answer">Answer goes here.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="gallery">
-    <div class="container">
-      <h2>Applications</h2>
-
-      <div class="gallery-container">
-        <img src="./images/coil.jpg" />
-        <img src="./images/Work.png" />
-        <img src="./images/workinspection.jpg" />
-      </div>
-    </div>
-  </section>
-
-  <script src="script.js"></script>
 </body>
 </html>
