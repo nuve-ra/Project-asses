@@ -15,158 +15,308 @@
 
 <body>
 
-<div class="page-wrapper"> <!-- ✅ ADDED -->
+<div class="page-wrapper">
 
-<!-- HEADER -->
-<header class="navbar">
-  <div class="container nav-content">
-    
-    <div class="logo">
-      <img src="./images/logo (2).png" alt="Company Logo">
-    </div>
-
-    <nav class="nav-links">
-      <a href="#">About</a>
-
-      <div class="dropdown">
-        <a href="#" class="dropbtn">Product ▾</a>
-        <div class="dropdown-content">
-          <a href="#">Product 1</a>
-          <a href="#">Product 2</a>
-          <a href="#">Product 3</a>
-        </div>
+  <!-- ================= HEADER ================= -->
+  <header class="navbar" role="banner">
+    <div class="container nav-content">
+      
+      <div class="logo">
+        <img src="./images/logo (2).png" alt="Company Logo" loading="lazy">
       </div>
 
-      <a href="#" class="contact-btn">Contact Us</a>
-    </nav>
+      <nav class="nav-links" role="navigation">
+        <a href="#">About</a>
 
-  </div>
-</header>
+        <div class="dropdown">
+          <button class="dropbtn">Product ▾</button>
+          <div class="dropdown-content">
+            <a href="#">Product 1</a>
+            <a href="#">Product 2</a>
+            <a href="#">Product 3</a>
+          </div>
+        </div>
 
-<!-- HERO SECTION -->
-<section class="hero">
+        <a href="#" class="contact-btn">Contact Us</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero">
+      <div class="container">
+
+        <div class="hero-layout">
+
+          <!-- LEFT SIDE -->
+          <div class="hero-left">
+
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb">
+              <span>Products</span>
+              <span class="separator">></span>
+              <span class="current">Two for one twister</span>
+            </nav>
+
+            <!-- MAIN IMAGE -->
+            <div class="image-container">
+              <button class="arrow left" id="prevBtn" aria-label="Previous Image">&#8592;</button>
+              
+              <img id="mainImage"
+                   src="./images/Workers.jpg"
+                   alt="HDPE pipe installation work"
+                   loading="lazy" />
+
+              <button class="arrow right" id="nextBtn" aria-label="Next Image">&#8594;</button>
+            </div>
+
+            <!-- THUMBNAILS -->
+            <div class="thumbnails">
+              <img src="./images/Work.png" class="thumb active" alt="HDPE pipe work" loading="lazy" />
+              <img src="./images/working.jpg" class="thumb" alt="Workers installing pipes" loading="lazy" />
+              <img src="./images/workinspection.jpg" class="thumb" alt="Pipe inspection process" loading="lazy" />
+              <img src="./images/coil.jpg" class="thumb" alt="HDPE pipe coils" loading="lazy" />
+            </div>
+
+          </div>
+
+          <!-- RIGHT SIDE -->
+          <div class="hero-right">
+
+            <!-- BADGES -->
+            <div class="badges">
+              <div class="badge">
+                <img src="./images/BIS.webp" alt="BIS Certification" loading="lazy">
+                <span>BIS Certified</span>
+              </div>
+
+              <div class="badge">
+                <img src="./images/isimark.webp" alt="ISO Certification" loading="lazy">
+                <span>ISO Certified</span>
+              </div>
+
+              <div class="badge">
+                <img src="./images/ce.png" alt="CE Certification" loading="lazy">
+                <span>CE Certified</span>
+              </div>
+            </div>
+
+            <!-- TITLE -->
+            <h1>Premium HDPE Pipes & Coils for Modern Infrastructure</h1>
+
+            <!-- FEATURES -->
+            <ul class="features-list">
+              <li>
+                <img src="./images/Vector.png" class="tick-icon" alt="tick" loading="lazy">
+                <span>Leak-Proof Fusion Joints</span>
+              </li>
+              <li>
+                <img src="./images/Vector.png" class="tick-icon" alt="tick" loading="lazy">
+                <span>Chemical Resistance</span>
+              </li>
+              <li>
+                <img src="./images/Vector.png" class="tick-icon" alt="tick" loading="lazy">
+                <span>50+ Year Service Life</span>
+              </li>
+              <li>
+                <img src="./images/Vector.png" class="tick-icon" alt="tick" loading="lazy">
+                <span>Flexible Installation</span>
+              </li>
+            </ul>
+
+            <!-- PRICE BOX -->
+            <div class="price-box">
+              <p class="price-label">Price Range</p>
+              <h3 class="price-value">₹4,80,000 - 7,90,000</h3>
+
+              <div class="tags-row">
+                <span class="tag tag-shipping">Shipping: 6-12 days</span>
+                <span class="tag tag-returns">Returns: If returned within 7 days</span>
+              </div>
+
+              <div class="cert-box">
+                Certifications: ISO Certified BIS Certified
+              </div>
+            </div>
+
+            <!-- BUTTONS -->
+            <div class="buttons">
+              <a href="#" class="primary-btn">Get Custom Quote</a>
+              <a href="#" class="secondary-btn">View Technical Specs</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= TRUSTED SECTION ================= -->
+    <section class="trusted">
+      <div class="container">
+
+        <p class="trusted-text">
+          Trusted by Hundreds of Companies Globally
+        </p>
+
+        <div class="trusted-logos">
+          <img src="./images/euroflex.png" alt="Euroflex logo" loading="lazy">
+        </div>
+
+      </div>
+      <!-- ================= TECHNICAL SPECS ================= -->
+<section class="specs-section">
   <div class="container">
 
-    <div class="hero-layout">
+    <!-- Header -->
+    <div class="specs-header">
+      <h2>Technical Specifications at a Glance</h2>
+      <p>
+        Comprehensive performance data demonstrating our commitment to quality and engineering excellence.
+      </p>
+    </div>
 
-      <!-- LEFT SIDE -->
-      <div class="hero-left">
+    <!-- Table -->
+    <div class="specs-table">
 
-        <!-- Breadcrumb -->
-        <nav class="breadcrumb"> <!-- ✅ improved -->
-          <span>Products</span>
-          <span class="separator">></span>
-          <span class="current">Two for one twister</span>
-        </nav>
-
-        <!-- MAIN IMAGE -->
-        <div class="image-container">
-          <button class="arrow left" id="prevBtn">&#8592;</button>
-          <img id="mainImage" src="./images/Workers.jpg" alt="HDPE pipe installation work" />
-          <button class="arrow right" id="nextBtn">&#8594;</button>
-        </div>
-
-        <!-- THUMBNAILS -->
-        <div class="thumbnails">
-          <img src="./images/Work.png" class="thumb active" alt="HDPE pipe work" />
-          <img src="./images/working.jpg" class="thumb" alt="Workers installing pipes" />
-          <img src="./images/workinspection.jpg" class="thumb" alt="Pipe inspection process" />
-          <img src="./images/coil.jpg" class="thumb" alt="HDPE pipe coils" />
-        </div>
-
+      <div class="table-row table-head">
+        <div>PARAMETER</div>
+        <div>SPECIFICATION</div>
       </div>
 
-      <!-- RIGHT SIDE -->
-      <div class="hero-right">
-
-        <!-- BADGES -->
-        <div class="badges">
-          <div class="badge">
-            <img src="./images/BIS.webp" alt="BIS Certification">
-            <span>BIS Certified</span>
-          </div>
-
-          <div class="badge">
-            <img src="./images/isimark.webp" alt="ISO Certification">
-            <span>ISO Certified</span>
-          </div>
-
-          <div class="badge">
-            <img src="./images/ce.png" alt="CE Certification">
-            <span>CE Certified</span>
-          </div>
-        </div>
-
-        <!-- TITLE -->
-        <h1>Premium HDPE Pipes & Coils for Modern Infrastructure</h1>
-
-        <!-- FEATURES -->
-        <ul class="features-list">
-          <li>
-            <img src="./images/Vector.png" class="tick-icon" alt="tick">
-            <span>Leak-Proof Fusion Joints</span>
-          </li>
-
-          <li>
-            <img src="./images/Vector.png" class="tick-icon" alt="tick">
-            <span>Chemical Resistance</span>
-          </li>
-
-          <li>
-            <img src="./images/Vector.png" class="tick-icon" alt="tick">
-            <span>50+ Year Service Life</span>
-          </li>
-
-          <li>
-            <img src="./images/Vector.png" class="tick-icon" alt="tick">
-            <span>Flexible Installation</span>
-          </li>
-        </ul>
-
-        <!-- PRICE BOX -->
-        <div class="price-box">
-          <p class="price-label">Price Range</p>
-          <h3 class="price-value">₹4,80,000 - 7,90,000</h3>
-
-          <div class="tags-row">
-            <span class="tag tag-shipping">Shipping: 6-12 days</span>
-            <span class="tag tag-returns">Returns: If returned within 7 days</span>
-          </div>
-
-          <div class="cert-box">
-            Certifications: ISO Certified BIS Certified
-          </div>
-        </div>
-
-        <!-- BUTTONS -->
-        <div class="buttons">
-          <a href="#" class="primary-btn">Get Custom Quote</a>
-          <a href="#" class="secondary-btn">View Technical Specs</a>
-        </div>
-
+      <div class="table-row">
+        <div>Pipe Diameter Range</div>
+        <div>20mm to 1600mm (3/4" to 63")</div>
       </div>
 
+      <div class="table-row">
+        <div>Pressure Ratings</div>
+        <div>PN 2.5, PN 4, PN 6, PN 8, PN 10</div>
+      </div>
+
+      <div class="table-row">
+        <div>Standard Dimension Ratio</div>
+        <div>SDR 33, SDR 26, SDR 21</div>
+      </div>
+
+      <div class="table-row">
+        <div>Operating Temperature</div>
+        <div>-40°C to +80°C</div>
+      </div>
+
+      <div class="table-row">
+        <div>Service Life</div>
+        <div>50+ Years</div>
+      </div>
+
+      <div class="table-row">
+        <div>Material Density</div>
+        <div>0.95 - 0.96 g/cm³</div>
+      </div>
+
+      <div class="table-row">
+        <div>Certification Standards</div>
+        <div>ISO, BIS, ASTM</div>
+      </div>
+
+      <div class="table-row">
+        <div>Joint Type</div>
+        <div>Butt Fusion, Electrofusion</div>
+      </div>
+
+      <div class="table-row">
+        <div>Country of Origin</div>
+        
+        <div><img src="./images/flag.avif" alt="India flag" class="flag-icon">India</div>
+      </div>
+
+    </div>
+
+    <!-- Button -->
+    <div class="specs-btn">
+     
+      <button> <img src="./images/download.png" alt="download icon" class="download-icon">Download Full Technical Datasheet</button>
+    </div>
+  </div>
+</section>
+<section class="features">
+  <div class="container">
+
+    <!-- Header -->
+    <div class="features-header">
+      <h2>Built to Last. Engineered to Perform.</h2>
+      <p>
+        From bulk bags to technical threads, Meera delivers precision solutions for every stage of your packaging process.
+      </p>
+    </div>
+
+    <!-- Grid -->
+    <div class="features-grid">
+
+      <!-- Card 1 -->
+      <div class="feature-card">
+        <img src="./images/icon1.svg" class="feature-icon">
+        <h3>Superior Chemical Resistance</h3>
+        <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis...</p>
+      </div>
+
+      <!-- Repeat -->
+      <div class="feature-card">
+        <img src="./images/icon2.svg" class="feature-icon">
+        <h3>Exceptional Flexibility & Durability</h3>
+        <p>HDPE pipes resist a wide range of chemicals...</p>
+      </div>
+
+      <div class="feature-card">
+        <img src="./images/icon3.svg" class="feature-icon">
+        <h3>Leak-Proof Fusion Welding</h3>
+        <p>HDPE pipes resist a wide range of chemicals...</p>
+      </div>
+
+      <div class="feature-card">
+        <img src="./images/icon4.svg" class="feature-icon">
+        <h3>Cost-Effective Long-Term Solution</h3>
+        <p>HDPE pipes resist a wide range of chemicals...</p>
+      </div>
+
+      <div class="feature-card">
+        <img src="./images/icon5.svg" class="feature-icon">
+        <h3>Environmentally Sustainable</h3>
+        <p>HDPE pipes resist a wide range of chemicals...</p>
+      </div>
+
+      <div class="feature-card">
+        <img src="./images/icon6.svg" class="feature-icon">
+        <h3>Certified Quality Assurance</h3>
+        <p>HDPE pipes resist a wide range of chemicals...</p>
+      </div>
+
+    </div>
+
+    <!-- Button -->
+    <div class="features-btn">
+      <button>Request a Quote</button>
     </div>
 
   </div>
 </section>
+    </section>
 
-<!-- TRUSTED SECTION -->
-<section class="trusted">
-  <div class="container">
+  </main>
 
-    <p class="trusted-text">
-      Trusted by Hundreds of Companies Globally
-    </p>
-
-    <div class="trusted-logos">
-      <img src="./images/euroflex.png" alt="Euroflex logo">
+  <!-- ================= FOOTER ================= -->
+  <!-- <footer>
+    <div class="container">
+      <p>© 2026 Your Company. All rights reserved.</p>
     </div>
+  </footer> -->
 
-  </div>
-</section>
-
-</div> <!-- ✅ END page-wrapper -->
+</div>
 
 <!-- JS -->
 <script src="script.js"></script>
