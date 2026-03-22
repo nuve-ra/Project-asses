@@ -1,4 +1,4 @@
-// ================= IMAGE CAROUSEL =================
+// IMAGE CAROUSEL 
 
 const mainImage = document.getElementById("mainImage");
 const thumbs = document.querySelectorAll(".thumb");
@@ -7,10 +7,10 @@ const nextBtn = document.getElementById("nextBtn");
 
 let currentIndex = 0;
 
-// Convert NodeList → Array of src
+// Converting NodeList into array of source
 const images = Array.from(thumbs).map(thumb => thumb.src);
 
-// Update image
+// Update image when clicked
 function updateImage(index) {
   mainImage.src = images[index];
 
@@ -42,7 +42,7 @@ const faqItems = document.querySelectorAll(".faq-item");
 faqItems.forEach(item => {
   item.addEventListener("click", () => {
 
-    // If already active → close it
+    // If already active then close it
     if (item.classList.contains("active")) {
       item.classList.remove("active");
       return;
@@ -51,7 +51,7 @@ faqItems.forEach(item => {
     // Close all others
     faqItems.forEach(i => i.classList.remove("active"));
 
-    // Open clicked
+ 
     item.classList.add("active");
 
   });
