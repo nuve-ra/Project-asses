@@ -1125,12 +1125,32 @@ background-image: url('./images/backgroundImage.png');
   font-size: 18px;
   font-weight: 400;
 }
-.process-tabs {
+/* .process-tabs {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 40px; 
+}*/
+.process-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.process-body {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.process-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.process-tabs {
+  scrollbar-width: none;
 }
 
 .tab {
@@ -1148,12 +1168,21 @@ background-image: url('./images/backgroundImage.png');
   color: white;
 }
 .process-content {
-  background: #FFFFFF;
-  padding: 32px;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+
+  background: #f9fafb;
   border-radius: 24px;
+  padding: 40px;
+  border: 1px solid #e5e7eb;
+
+  flex-wrap: nowrap;   /* ❗ prevents breaking */
 }
 .process-left {
   flex: 1;
+  min-width: 400px;  /* ❗ prevents collapsing */
 }
 
 .process-left h3 {
@@ -1162,23 +1191,41 @@ background-image: url('./images/backgroundImage.png');
 }
 
 .process-left p {
+  font-family:'Inter', sans-serif;
+  font-weight: 400;
+  font-size:18px;
+  line-height:1.6;
+  letter-spacing: -0.006em;
   color: #6b7280;
   margin-bottom: 16px;
+  max-width: 500px;
 }
 
 .process-left ul {
-  padding-left: 18px;
+  list-style: none;   
+  padding: 0;
+  margin: 0;
+}
+.process-left li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #111827;
 }
 .process-right {
   flex: 1;
+  min-width: 400px;  /* ❗ important */
   position: relative;
 }
 
 .process-right img {
   width: 100%;
-  border-radius: 20px;
+  height: auto;
+  border-radius: 16px;
+  display: block;
 }
-
 /* arrows */
 .process-right .arrow {
   position: absolute;
@@ -1199,13 +1246,13 @@ background-image: url('./images/backgroundImage.png');
 .process-right .right {
   right: 10px;
 }
-.process-tabs {
+/* .process-tabs {
   position: relative;
   display: flex;
   justify-content: center;
   gap: 16px;
   margin-bottom: 40px;
-}
+} */
 
 /* LINE BEHIND TABS */
 
